@@ -1,0 +1,7 @@
+[
+    {"name": "p1", "strategy": "dumb"},
+    {"name": "p2", "strategy": "dumb"},
+    {"name": "p3", "strategy": "dumb"},
+    {"name": "p4", "strategy": "dumb"},
+    {"name": "p5", "strategy": "dumb"}
+]

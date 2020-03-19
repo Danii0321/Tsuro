@@ -1,0 +1,14 @@
+{
+    "type": "MOVE_ACCEPTED",
+    "board": {
+        "grid": {
+            [
+                [null, {
+                    "index": 0, 
+                    "rotation": 0
+                }, null],
+                [null, null, null]
+            ]
+        }
+    }
+}
