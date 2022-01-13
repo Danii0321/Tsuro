@@ -5,26 +5,62 @@
 #    pip-compile --output-file=requirements/dev.txt requirements/dev.in
 #
 aggdraw==1.3.11
-appdirs==1.4.3            # via black
-attrs==19.3.0             # via black, flake8-bugbear
+    # via -r base.in
+appdirs==1.4.3
+    # via black
+attrs==19.3.0
+    # via
+    #   black
+    #   flake8-bugbear
 black==19.10b0
-click==7.0                # via black
-entrypoints==0.3          # via flake8
-flake8-bugbear==19.8.0
-flake8-builtins==1.4.1
-flake8-debugger==3.2.1
-flake8-isort==2.7.0
-flake8-print==3.1.4
-flake8-quotes==2.1.1
+    # via -r dev.in
+click==7.0
+    # via black
+entrypoints==0.3
+    # via flake8
 flake8==3.7.9
-isort==4.3.21             # via flake8-isort
-mccabe==0.6.1             # via flake8
-pathspec==0.6.0           # via black
-pillow==6.2.1
-pycodestyle==2.5.0        # via flake8, flake8-debugger, flake8-print
-pyflakes==2.1.1           # via flake8
-regex==2019.11.1          # via black
-six==1.13.0               # via flake8-print
-testfixtures==6.10.3      # via flake8-isort
-toml==0.10.0              # via black
-typed-ast==1.4.0          # via black
+    # via
+    #   -r dev.in
+    #   flake8-bugbear
+    #   flake8-builtins
+    #   flake8-debugger
+    #   flake8-isort
+    #   flake8-print
+    #   flake8-quotes
+flake8-bugbear==19.8.0
+    # via -r dev.in
+flake8-builtins==1.4.1
+    # via -r dev.in
+flake8-debugger==3.2.1
+    # via -r dev.in
+flake8-isort==2.7.0
+    # via -r dev.in
+flake8-print==3.1.4
+    # via -r dev.in
+flake8-quotes==2.1.1
+    # via -r dev.in
+isort==4.3.21
+    # via flake8-isort
+mccabe==0.6.1
+    # via flake8
+pathspec==0.6.0
+    # via black
+pillow==9.0.0
+    # via -r base.in
+pycodestyle==2.5.0
+    # via
+    #   flake8
+    #   flake8-debugger
+    #   flake8-print
+pyflakes==2.1.1
+    # via flake8
+regex==2019.11.1
+    # via black
+six==1.13.0
+    # via flake8-print
+testfixtures==6.10.3
+    # via flake8-isort
+toml==0.10.0
+    # via black
+typed-ast==1.4.0
+    # via black
